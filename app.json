@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "rn023_movilpedregal",
+    "slug": "rn023_movilpedregal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1c1c1c"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rodrigo_205.rn023_movilpedregal"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "51ad4d72-a65b-46a6-bf24-4169d5bb28d4"
+      }
+    }
+  },
+  "name": "rn023_movilpedregal"
+}
