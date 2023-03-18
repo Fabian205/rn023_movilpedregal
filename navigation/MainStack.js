@@ -10,6 +10,24 @@ import MenuInicioScreen from '../screens/MenuInicioScreen';
 import EstadosCuentaScreen from '../screens/EstadosCuentaScreen';
 import ConsultaPagosScreen from '../screens/ConsultaPagosScreen';
 import HistorialPropiedadScreen from '../screens/HistorialPropiedadScreen';
+import DocumentosScreen from '../screens/DocumentosScreen';
+import AdministradorScreen from '../screens/AdministradorScreen';
+import LoginScreenAdmin from '../screens/LoginScreenAdmin';
+import AcercaDeScreen from '../screens/AcercaDeScreen';
+import ReglamentoInternoScreen from '../screens/ReglamentoInterno';
+import ActasResolucionesScreen from '../screens/ActasResolucionesScreen';
+import ActasResolDescripScreen from '../screens/ActasResolDescripScreen';
+import ConsultaCuentasAdmScreen from '../screens/ConsultaCuentasAdmScreen';
+import ConsultaPagosAdmScreen from '../screens/ConsultaPagosAdmScreen';
+import ConsultaExpensasAdmScreen from '../screens/ConsultaExpensasAdmScreen';
+import ConsultaHistorialAdmScreen from '../screens/ConsultaHistorialAdmScreen';
+import EstadoCuentaGralAdmScreen from '../screens/EstadoCuentaGralAdmScreen';
+import RegistroAdmScreen from '../screens/RegistroAdmScreen';
+import EdicionCompAdmScreen from '../screens/EdicionCompAdmScreen';
+import BuscaComprobantesAdmScreen from '../screens/BuscaComprobantesAdmScreen';
+import BuscaCompAdminDetalleScreen from '../screens/BuscaCompAdminDetalleScreen';
+import ConsultaPagosCasaAdminScreen from '../screens/ConsultaPagosCasaAdminScreen';
+import ConsultaPagosCompAdminScreen from '../screens/ConsultaPagosCompAdminScreen';
 
 const Stack = createNativeStackNavigator()
 
@@ -52,7 +70,79 @@ const MainStack = () => {
                 <Stack.Screen
                     name='HistorialPropiedad'
                     component={HistorialPropiedadScreen}
-                />                               
+                />
+                <Stack.Screen
+                    name='Documentos'
+                    component={DocumentosScreen}                   
+                />                 
+                <Stack.Screen
+                    name='Administrador'
+                    component={AdministradorScreen}
+                />
+                <Stack.Screen
+                    name='LoginAdmin'
+                    component={LoginScreenAdmin}
+                />  
+                <Stack.Screen
+                    name='AcercaDe'
+                    component={AcercaDeScreen}
+                />
+                <Stack.Screen
+                    name='ReglamentoInterno'
+                    component={ReglamentoInternoScreen}
+                />
+                <Stack.Screen
+                    name='ActasResoluciones'
+                    component={ActasResolucionesScreen}
+                />
+                <Stack.Screen
+                    name='ActasResoDescrip'
+                    component={ActasResolDescripScreen}
+                />
+                <Stack.Screen
+                    name='ConsultaCuentasAdmScreen'
+                    component={ConsultaCuentasAdmScreen}
+                />
+                <Stack.Screen
+                    name='ConsultaPagosAdmScreen'
+                    component={ConsultaPagosAdmScreen}
+                />
+                <Stack.Screen
+                    name='ConsultaExpensasAdmScreen'
+                    component={ConsultaExpensasAdmScreen}
+                />
+                <Stack.Screen
+                    name='ConsultaHistorialAdmScreen'
+                    component={ConsultaHistorialAdmScreen}
+                />
+                <Stack.Screen
+                    name='EstadosCuentaGralAdmScreen'
+                    component={EstadoCuentaGralAdmScreen}
+                />
+                <Stack.Screen
+                    name='RegistroAdmScreen'
+                    component={RegistroAdmScreen}
+                />
+                <Stack.Screen
+                    name='EdicionCompAdmin'
+                    component={EdicionCompAdmScreen}
+                />
+                <Stack.Screen
+                    name='ConsultaPagosCasaAdmin'
+                    component={ConsultaPagosCasaAdminScreen}
+                />
+                <Stack.Screen
+                    name='ConsultaPagosCompAdmin'
+                    component={ConsultaPagosCompAdminScreen}
+                />
+                <Stack.Screen
+                    name='BuscaComprobantesAdm'
+                    component={BuscaComprobantesAdmScreen}
+                />
+                <Stack.Screen
+                    name='BuscaCompAdminDetalle'
+                    component={BuscaCompAdminDetalleScreen}
+                />                              
             </Stack.Navigator>           
         </NavigationContainer>
     )

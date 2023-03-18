@@ -45,7 +45,7 @@ const HomeScreen = () => {
       <Separator/>
       <Separator/>     
       <Boton
-        text="LoginApp"
+        text="Login"
         onPress={() => {navigation.navigate('Login')}}                      
       />
     </View>

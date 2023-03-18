@@ -57,16 +57,13 @@ const MenuInicioScreen = (props) => {
         <Boton text="Estados de Cuenta" onPress={() => {navigation.navigate('EstadosCuenta', { P1: mail, P2: pass })}} />
         <Boton text="Consulta de Pagos" onPress={() => {navigation.navigate('ConsultaPagos', { P1: mail, P2: pass })}}/>
         <Boton text="Historial de la propiedad" onPress={() => {navigation.navigate('HistorialPropiedad', { P1: mail, P2: pass })}}/>
-        {/*<Boton text="Documentos" onPress={() => {navigation.navigate('Documentos', { P1: mail, P2: pass })}}/>
+        <Boton text="Documentos" onPress={() => {navigation.navigate('Documentos', { P1: mail, P2: pass })}}/>
         <Boton text="Administrador" onPress={() => {navigation.navigate('LoginAdmin', { P1: mail, P2: pass })}}/>
-        <Boton text="Acerca de" onPress={() => {navigation.navigate('AcercaDe', { P1: mail, P2: pass })}}/> */}
-        
-        {/* <Boton text="Estados de Cuenta" onPress={prueba} />
-        <Boton text="Consulta de Pagos" onPress={prueba}/>
-        <Boton text="Historial de la propiedad" onPress={prueba}/> */}
-        <Boton text="Documentos" onPress={prueba}/>
+        <Boton text="Acerca de" onPress={() => {navigation.navigate('AcercaDe', { P1: mail, P2: pass })}}/>
+
+        {/* <Boton text="Documentos" onPress={prueba}/>
         <Boton text="Administrador" onPress={prueba}/>
-        <Boton text="Acerca de" onPress={prueba}/>
+        <Boton text="Acerca de" onPress={prueba}/> */}
         <Boton text="Home" onPress={() => {navigation.navigate('Home')}} />
         <Boton text="Atras" onPress={() => {navigation.goBack()}} />
       </View>

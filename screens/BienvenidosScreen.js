@@ -55,7 +55,7 @@ const BienvenidosScreen = (props) => {
             style={{
               fontWeight: "bold",
               fontSize: 25,
-              marginTop: 8,
+              marginTop: 5,
               marginBottom: 10,
               textAlign: "center",
               color: "grey",
@@ -101,11 +101,11 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
   },
   flat: {
-    margin: 10,
+    margin: 10,  
     paddingBottom: 10,
   },
   separator: {
-    marginVertical: 5,
+    marginVertical: 10,
     marginLeft: 30,
     marginRight: 30,
     borderBottomWidth: StyleSheet.hairlineWidth,
