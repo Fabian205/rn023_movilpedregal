@@ -139,7 +139,7 @@ const BuscaComprobantesAdmScreen = () => {
           {showff && (
             <DateTimePicker
             testID='dateTimePicker'
-            value = {date}
+            value = {dateff}
             mode = {mode}
             is24Hour = {true}
             display = 'default'
